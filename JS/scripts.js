@@ -1,14 +1,15 @@
-function fondocirculo(y)
+/*
+function fondocirculo(nombreimagen)
          {
 
-             x= '"' + 'url(./images/' + y + ')' + '"'
+             rutaimagen= '"' + 'url(./images/' + nombreimagen + ')' + '"';
 
           // alert(x)
 
 				//Establezco las propiedades CSS
-            document.getElementById("circulo").style.backgroundImage = x
+            document.getElementById("circulo").style.backgroundImage = rutaimagen;
             }
 
 
 
-
+*/
