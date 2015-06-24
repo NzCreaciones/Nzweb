@@ -1,50 +1,47 @@
 @CHARSET "UTF-8";
 
-
 /* Estilos Comunes en toda la página*/
-
-    *{
-        margin:0px;
-        padding: 0px;
-    }
+*{
+  margin:0px;
+  padding: 0px;
+}
 
 /*Caja principal que abarca toda la página*/
-    #cajaprincipal{
-        width: 100%;
-        height: 1200px;
-        background-color: black;
-    }
+#cajaprincipal{
+	width: 100%;
+	background-color: black;
+}
 
 /*Título de la página*/
-    #cajatitulo{
-        min-width: 400px;
-        max-width: 900px;
-        height: 120px;
-        margin: auto;
-        padding-top: 15px;
-        background-color: azure;
-        font-size: 70px;
-        color: darkorange;
-        text-align: center;
-        vertical-align: middle;
-    }
+#cajatitulo{
+	min-width: 400px;
+	max-width: 900px;
+	margin: auto;
+	padding-top: 15px;
+	background-color: red;
+	font-size: 70px;
+	color: darkorange;
+	text-align: center;
+	vertical-align: middle;
+}
 
 /*Caja para el contenido*/
-    #cajageneral{
-        min-width: 450px;
-        max-width: 900px;
-        height: 800px;
-        margin: auto;
-        background-color: white;
-        padding-top: 10%;
-    }
+#cajageneral{
+	position: relative;
+	min-width: 400px;
+	max-width: 900px;
+	margin: auto;
+	background-color: white;
+	padding-top: 50px;
+}
 
     /*Caja para LINKS*/
-        #cajalinks{
-        width: 100%;
-        height: 450px;
-        top:120px;
-        }
+#cajalinks{
+	position: relative:
+	width: 100%;
+	height: 500px;
+	margin: auto;
+}
 
     /*Caja general que contiene el círculo y enlaces*/
         #cajacirculo{
@@ -66,7 +63,7 @@
         background-repeat: no-repeat;
         background-size: 110%;
         background-position: right;
-        background-image: url(./images/fondocirculo.jpg);
+        background-image: url(../images/fondocirculo.jpg);
         border-radius: 280px;
         box-shadow: 10px 10px 10px ;
         }
@@ -112,7 +109,7 @@
         -webkit-transform:rotate(-65deg) scale(1);
 		-o-transform:rotate(-65deg) scale(1);
   		-ms-transform:rotate(-65deg) scale(1);
-        background-image: url(./images/file.png);
+        background-image: url(../images/file.png);
         }
         #sb{
         top:50px;
@@ -121,12 +118,12 @@
         -webkit-transform:rotate(-30deg) scale(1);
 		-o-transform:rotate(-30deg) scale(1);
   		-ms-transform:rotate(-30deg) scale(1);
-        background-image: url(./images/download.png);
+        background-image: url(../images/download.png);
         }
         #sc{
         top:10px;
         left:190px;
-        background-image: url(./images/audio.png);
+        background-image: url(../images/audio.png);
         }
         #sd{
         top:50px;
@@ -135,7 +132,7 @@
         -webkit-transform:rotate(30deg) scale(1);
 		-o-transform:rotate(30deg) scale(1);
   		-ms-transform:rotate(30deg) scale(1);
-        background-image: url(./images/multimedia.png);
+        background-image: url(../images/multimedia.png);
         }
         #se{
         top:160px;
@@ -144,7 +141,7 @@
         -webkit-transform:rotate(65deg) scale(1);
 		-o-transform:rotate(65deg) scale(1);
   		-ms-transform:rotate(65deg) scale(1);
-        background-image: url(./images/certificado.png);
+        background-image: url(../images/certificado.png);
         }
 
 
