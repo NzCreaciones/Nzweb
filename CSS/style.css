@@ -6,10 +6,14 @@
   padding: 0px;
 }
 
+body{
+
+}
+
 /*Caja principal que abarca toda la página*/
 #cajaprincipal{
 	width: 100%;
-	background-color: black;
+	background-color: whitesmoke;
 }
 
 /*----------------------Título------------------------------------*/
@@ -19,7 +23,6 @@
 	min-width: 400px;
 	max-width: 900px;
 	margin: auto;
-	display: block;
 	padding-top: 15px;
 	border: 10px groove grey;
 	background-image: url("../images/titulo/fondotitulo.png");
@@ -50,6 +53,15 @@
 }
 
 
+
+
+/*-----------------------Caja Izquierda-----------------------------*/
+
+
+/*-----------------------Caja Derecha-------------------------------*/
+
+
+/*-----------------------Contenido----------------------------------*/
 /*Caja para el contenido*/
 #cajageneral{
 	position: relative;
@@ -59,15 +71,6 @@
 	background-color: white;
 	padding-top: 50px;
 }
-
-/*-----------------------Caja Izquierda-----------------------------*/
-
-
-/*-----------------------Caja Derecha-------------------------------*/
-
-
-/*-----------------------Contenido----------------------------------*/
-
 
 /*------------------------Globo con las 5 WEB principales------------*/
  /*Caja para LINKS*/
