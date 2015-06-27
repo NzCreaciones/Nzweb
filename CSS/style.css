@@ -12,18 +12,43 @@
 	background-color: black;
 }
 
+/*----------------------Título------------------------------------*/
 /*Título de la página*/
 #cajatitulo{
+	position: relative;
 	min-width: 400px;
 	max-width: 900px;
 	margin: auto;
+	display: block;
 	padding-top: 15px;
-	background-color: red;
-	font-size: 70px;
-	color: darkorange;
-	text-align: center;
-	vertical-align: middle;
+	border: 10px groove grey;
+	background-image: url("../images/titulo/fondotitulo.png");
 }
+/*Caja para portalweb*/
+#portalweb {
+	position: relative;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	float: left;
+	display: block;
+	background-image: url("../images/titulo/portalweb.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+/*Caja para nzcreaciones*/
+#nzcreaciones {
+	position: relative;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	float: right;
+	display: block;
+	background-image: url("../images/titulo/nzcreaciones.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 
 /*Caja para el contenido*/
 #cajageneral{
@@ -35,7 +60,17 @@
 	padding-top: 50px;
 }
 
-    /*Caja para LINKS*/
+/*-----------------------Caja Izquierda-----------------------------*/
+
+
+/*-----------------------Caja Derecha-------------------------------*/
+
+
+/*-----------------------Contenido----------------------------------*/
+
+
+/*------------------------Globo con las 5 WEB principales------------*/
+ /*Caja para LINKS*/
 #cajalinks{
 	position: relative:
 	width: 100%;
