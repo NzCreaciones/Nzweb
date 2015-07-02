@@ -745,16 +745,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="137.16277"
-     inkscape:cy="516.37157"
+     inkscape:zoom="44.8"
+     inkscape:cx="-139.72893"
+     inkscape:cy="727.17256"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1002"
+     inkscape:window-height="988"
      inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-y="30"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -1049,7 +1049,7 @@
            height="372.74628"
            x="169.70563"
            y="445.26053" /></flowRegion><flowPara
-         id="flowPara4228"></flowPara></flowRoot>    <flowRoot
+         id="flowPara4228" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4230"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1129,28 +1129,34 @@
          id="tspan4251"
          x="-115.46014"
          y="339.05441">correo@gmail.com</tspan></text>
-    <rect
-       style="opacity:1;fill:#d9ffc2;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4267)"
-       id="rect4255"
-       width="120.20815"
-       height="49.497475"
-       x="-165.57071"
-       y="416.31271"
-       ry="0" />
+    <g
+       id="g4357"
+       inkscape:export-filename="/home/nerviozzo/git/nzweb/images/cartelweb.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="0"
+         y="416.31271"
+         x="-165.57071"
+         height="49.497475"
+         width="120.20815"
+         id="rect4255"
+         style="opacity:1;fill:#d9ffc2;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4267)" />
+      <flowRoot
+         transform="matrix(1.5242197,0,0,1.5242197,-174.02,-239.7641)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'Burnstown Dam';-inkscape-font-specification:'Burnstown Dam';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4257"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4259"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'Burnstown Dam';-inkscape-font-specification:'Burnstown Dam';text-align:center;text-anchor:middle"
+             y="429.60315"
+             x="-9.0913725"
+             height="33.840111"
+             width="107.58125"
+             id="rect4261" /></flowRegion><flowPara
+           id="flowPara4263">Sitios</flowPara><flowPara
+           id="flowPara4265">WEB</flowPara></flowRoot>    </g>
     <flowRoot
-       xml:space="preserve"
-       id="flowRoot4257"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'Burnstown Dam';-inkscape-font-specification:'Burnstown Dam';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="matrix(1.5242197,0,0,1.5242197,-174.02,-239.7641)"><flowRegion
-         id="flowRegion4259"><rect
-           id="rect4261"
-           width="107.58125"
-           height="33.840111"
-           x="-9.0913725"
-           y="429.60315"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'Burnstown Dam';-inkscape-font-specification:'Burnstown Dam';text-align:center;text-anchor:middle" /></flowRegion><flowPara
-         id="flowPara4263">Sitios</flowPara><flowPara
-         id="flowPara4265">WEB</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4289"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:Caladea;-inkscape-font-specification:Caladea;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1286,5 +1292,17 @@
            x="905.71429"
            y="292.36221"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'" /></flowRegion><flowPara
-         id="flowPara4809">#@SIGUEME@#</flowPara></flowRoot>  </g>
+         id="flowPara4809">#@SIGUEME@#</flowPara></flowRoot>    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4365"
+       cx="-138.7697"
+       cy="319.11771"
+       r="3.4092648" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -131.31983,326.44132 c -0.1395,0.60441 -0.45848,0.61211 -4.16648,-2.64302 -0.91257,-0.80111 1.77532,3.52635 -3.32382,3.53217 -4.47791,0.005 -3.13476,-3.37952 -3.13476,-3.37952 -3.34054,2.43007 -2.72834,2.84978 -3.34054,2.43007 -0.90199,-0.66316 0.58867,-3.34195 1.43128,-3.62216 0.10087,-2.43499 10.08022,-2.64707 10.15622,-0.12948 0.57631,0.28038 2.72051,2.85972 2.3781,3.81194 z"
+       id="path4367"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssscccc" />
+  </g>
 </svg>
