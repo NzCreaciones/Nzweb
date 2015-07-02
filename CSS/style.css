@@ -10,6 +10,11 @@ body{
 
 }
 
+H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
+	color: azure;
+	font-size: 27px;
+}
+
 /*Caja principal que abarca toda la página*/
 #cajaprincipal{
 	width: 100%;
@@ -58,8 +63,77 @@ body{
 }
 
 /*-----------------------Caja Izquierda-----------------------------*/
+#cajaizquierda{
+	position: fixed;
+	width: 250px;
+	height: 600px;
+	top: 160px;
+	left: 0px;
+	background-color: red;
+	z-index: 21;
+	border-radius: 0px 150px 40px 0px;
+	-moz-border-radius: 0px 150px 40px 0px;
+	-webkit-border-radius: 0px 150px 40px 0px;
+	-o-border-radius: 0px 150px 40px 0px;
+	-ms-border-radius: 0px 150px 40px 0px;
+}
+#masinformacion{
+	position: absolute;
+	width: 40px;
+	height: 340px;
+	top: 130px;
+	right: 0px;
+	background-color: aqua;
+}
 
 /*-----------------------Caja Derecha-------------------------------*/
+#cajaderecha{
+	position: fixed;
+	width: 150px;
+	height: 400px;
+	top: 160px;
+	right: 0px;
+	background-color: greenyellow;
+	z-index: 21;
+	border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	-o-border-radius: 10px 0px 0px 10px;
+	-ms-border-radius: 10px 0px 0px 10px;
+
+}
+#sigueme{
+	position: absolute;
+	width: 60px;
+	height: 350px;
+	top: 25px;
+	left: -30px;
+	word-wrap: break-word;
+	text-align: center;
+	background-color: orange;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
+	box-shadow: -5px 0px 15px black;
+	-moz-box-shadow: -5px 0px 15px black;
+	-webkit-box-shadow: -5px 0px 15px black;
+	-o-box-shadow: -5px 0px 15px black;
+	-ms-box-shadow: -5px 0px 15px black;
+}
+.redessociales{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	left: 50px;
+	margin-top: 16px;
+	background-color: blueviolet;
+}
+
+
+
+
 
 /*-----------------------Contenido----------------------------------*/
 /*Caja para el contenido*/
@@ -101,7 +175,15 @@ body{
 	background-position: right;
 	background-image: url(../images/fondocirculo.jpg);
 	border-radius: 280px;
-	box-shadow: 10px 10px 10px ;
+	-moz-border-radius: 280px;
+	-webkit-border-radius: 280px;
+	-o-border-radius: 280px;
+	-ms-border-radius: 280px;
+	box-shadow: 10px 10px 10px black;
+	-moz-box-shadow: 10px 10px 10px black;
+	-webkit-box-shadow: 10px 10px 10px black;
+	-o-box-shadow: 10px 10px 10px black;
+	-ms-box-shadow: 10px 10px 10px black;
 }
 
 /*Cuadrado con el menu para ir a las páginas WEB*/
@@ -118,6 +200,10 @@ body{
 	background-color: cornflowerblue;
 	border: 6px groove white;
 	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
 	box-shadow: 10px 10px 10px black;
 	-moz-box-shadow: 10px 10px 10px black;
 	-webkit-box-shadow: 10px 10px 10px black;
