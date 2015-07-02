@@ -71,6 +71,8 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	left: 0px;
 	background-color: red;
 	z-index: 21;
+	background-image: url(../images/papel-marron.png);
+	background-repeat: round;
 	border-radius: 0px 150px 40px 0px;
 	-moz-border-radius: 0px 150px 40px 0px;
 	-webkit-border-radius: 0px 150px 40px 0px;
@@ -96,10 +98,6 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-
-
-
-
 #cartelsitiosweb{
 	position: absolute;
 	width: 200px;
@@ -155,10 +153,6 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	margin-top: 16px;
 	background-color: blueviolet;
 }
-
-
-
-
 
 /*-----------------------Contenido----------------------------------*/
 /*Caja para el contenido*/
@@ -323,7 +317,6 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	padding: 0;
 	align-content: center;
 	vertical-align: middle;
-	background-color: orange;
 }
 
 /*Común para todos*/
@@ -331,11 +324,20 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	min-width: 400px;
 	max-width: 800px;
 	margin: auto;
-	padding: 10px;
+	padding: 0px;
 	margin-top: 8px;
 	margin-bottom: 15px;
-	background-color: red;
-
+	border: 50px solid transparent;
+	border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-moz-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-webkit-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-o-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-ms-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
 }
 .sitiosweb:hover{
 
