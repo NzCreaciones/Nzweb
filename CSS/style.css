@@ -62,29 +62,31 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	background-repeat: no-repeat;
 }
 
-/*-----------------------Caja Izquierda-----------------------------*/
-#cajaizquierda{
+/*-----------------------Caja Derecha-----------------------------*/
+#cajaderecha{
 	position: fixed;
-	width: 250px;
+	width: 280px;
 	height: 600px;
 	top: 160px;
-	left: 0px;
+	right: 0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	background-color: red;
 	z-index: 21;
 	background-image: url(../images/papel-marron.png);
 	background-repeat: round;
-	border-radius: 0px 150px 40px 0px;
-	-moz-border-radius: 0px 150px 40px 0px;
-	-webkit-border-radius: 0px 150px 40px 0px;
-	-o-border-radius: 0px 150px 40px 0px;
-	-ms-border-radius: 0px 150px 40px 0px;
+	border-radius: 150px 0px 0px 40px;
+	-moz-border-radius: 150px 0px 0px 40px;
+	-webkit-border-radius: 150px 0px 0px 40px;
+	-o-border-radius: 150px 0px 0px 40px;
+	-ms-border-radius: 150px 0px 0px 40px;
 }
 #masinformacion{
 	position: absolute;
 	width: 40px;
 	height: 340px;
 	top: 130px;
-	right: 0px;
+	left: 0px;
 	background-color: aqua;
 }
 #datoscontacto{
@@ -92,6 +94,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	width: 190px;
 	height: 100px;
 	top: 50px;
+	right: 5px;
 	padding: 20px;
 	color: blue;
 	background-image: url(../images/datoscontacto.png);
@@ -103,34 +106,51 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	width: 200px;
 	height: 150px;
 	top: 140px;
-	left: 2px;
+	right: 20px;
 	background-image: url(../images/cartelweb.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.anclasitiosweb{
+	position: relative;
+	width: 170px;
+	height: 30px;
+	top: 250px;
+	left: 45px;
+	border: 20px solid transparent;
+	border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-moz-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-webkit-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-o-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-ms-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
+}
 
-/*-----------------------Caja Derecha-------------------------------*/
-#cajaderecha{
+/*-----------------------Caja Izquierda-------------------------------*/
+#cajaizquierda{
 	position: fixed;
 	width: 150px;
 	height: 400px;
 	top: 160px;
-	right: 0px;
-	background-color: greenyellow;
+	left: 0px;
+	background-image: url(../images/mosaico.png);
 	z-index: 21;
-	border-radius: 10px 0px 0px 10px;
-	-moz-border-radius: 10px 0px 0px 10px;
-	-webkit-border-radius: 10px 0px 0px 10px;
-	-o-border-radius: 10px 0px 0px 10px;
-	-ms-border-radius: 10px 0px 0px 10px;
-
+	border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-o-border-radius: 0px 10px 10px 0px;
+	-ms-border-radius: 0px 10px 10px 0px;
 }
 #sigueme{
 	position: absolute;
 	width: 60px;
 	height: 350px;
 	top: 25px;
-	left: -30px;
+	right: -30px;
 	word-wrap: break-word;
 	text-align: center;
 	background-color: orange;
@@ -139,19 +159,47 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-border-radius: 28px;
 	-o-border-radius: 28px;
 	-ms-border-radius: 28px;
-	box-shadow: -5px 0px 15px black;
-	-moz-box-shadow: -5px 0px 15px black;
-	-webkit-box-shadow: -5px 0px 15px black;
-	-o-box-shadow: -5px 0px 15px black;
-	-ms-box-shadow: -5px 0px 15px black;
+	box-shadow: 5px 0px 15px black;
+	-moz-box-shadow: 5px 0px 15px black;
+	-webkit-box-shadow: 5px 0px 15px black;
+	-o-box-shadow: 5px 0px 15px black;
+	-ms-box-shadow: 5px 0px 15px black;
+	/*
+	transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	*/
 }
 .redessociales{
 	position: relative;
 	width: 80px;
 	height: 80px;
-	left: 50px;
+	left: 19px;
 	margin-top: 16px;
-	background-color: blueviolet;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.redessociales:hover{
+	cursor: pointer;
+	transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+}
+#redesgmail {
+	background-image: url(../images/iconos/gmail.png);
+}
+#redesfacebook {
+	background-image: url(../images/iconos/facebook.png);
+}
+#redestwitter {
+	background-image: url(../images/iconos/twitter.png);
+}
+#redesyoutube {
+	background-image: url(../images/iconos/youtube.png);
 }
 
 /*-----------------------Contenido----------------------------------*/
