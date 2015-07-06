@@ -737,6 +737,275 @@
          in2="result2"
          id="feComposite4339-8-0-5" />
     </filter>
+    <filter
+       inkscape:label="Cracked Lava"
+       inkscape:menu="Materials"
+       inkscape:menu-tooltip="A volcanic texture, a little like leather"
+       style="color-interpolation-filters:sRGB;"
+       id="filter4374">
+      <feGaussianBlur
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5"
+         id="feGaussianBlur4376" />
+      <feTurbulence
+         baseFrequency="0.042"
+         seed="488"
+         numOctaves="7"
+         result="result1"
+         id="feTurbulence4378" />
+      <feDisplacementMap
+         result="result5"
+         xChannelSelector="R"
+         scale="0"
+         in2="result1"
+         in="result1"
+         yChannelSelector="G"
+         id="feDisplacementMap4380" />
+      <feComposite
+         result="result2"
+         operator="in"
+         in2="result5"
+         in="result0"
+         id="feComposite4382" />
+      <feSpecularLighting
+         lighting-color="rgb(255,230,136)"
+         surfaceScale="2"
+         result="result4"
+         specularConstant="2"
+         specularExponent="65"
+         in="result2"
+         id="feSpecularLighting4384">
+        <feDistantLight
+           elevation="62"
+           azimuth="225"
+           id="feDistantLight4386" />
+      </feSpecularLighting>
+      <feComposite
+         k1="2.5"
+         k3="1"
+         k2="-0.5"
+         in2="result2"
+         in="result4"
+         operator="arithmetic"
+         result="result91"
+         id="feComposite4388" />
+      <feBlend
+         result="fbSourceGraphic"
+         mode="multiply"
+         in2="result91"
+         id="feBlend4390" />
+      <feColorMatrix
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -2 -0.5 0 5 -2"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha"
+         id="feColorMatrix4392" />
+      <feGaussianBlur
+         stdDeviation="8"
+         in="fbSourceGraphicAlpha"
+         result="result0"
+         id="feGaussianBlur4394" />
+      <feOffset
+         dx="2"
+         dy="2"
+         in="result0"
+         result="result3"
+         id="feOffset4396" />
+      <feSpecularLighting
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="4"
+         specularConstant="0.8"
+         specularExponent="15"
+         id="feSpecularLighting4398">
+        <fePointLight
+           x="-5000"
+           y="-10000"
+           z="20000"
+           id="fePointLight4400" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphicAlpha"
+         in="result1"
+         result="result2"
+         operator="in"
+         id="feComposite4402" />
+      <feComposite
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="2"
+         in2="result2"
+         id="feComposite4404" />
+      <feBlend
+         mode="darken"
+         in2="result4"
+         id="feBlend4406" />
+    </filter>
+    <filter
+       inkscape:label="Cracked Lava"
+       inkscape:menu="Materials"
+       inkscape:menu-tooltip="A volcanic texture, a little like leather"
+       style="color-interpolation-filters:sRGB;"
+       id="filter4408">
+      <feGaussianBlur
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5"
+         id="feGaussianBlur4410" />
+      <feTurbulence
+         baseFrequency="0.042"
+         seed="488"
+         numOctaves="7"
+         result="result1"
+         id="feTurbulence4412" />
+      <feDisplacementMap
+         result="result5"
+         xChannelSelector="R"
+         scale="0"
+         in2="result1"
+         in="result1"
+         yChannelSelector="G"
+         id="feDisplacementMap4414" />
+      <feComposite
+         result="result2"
+         operator="in"
+         in2="result5"
+         in="result0"
+         id="feComposite4416" />
+      <feSpecularLighting
+         lighting-color="rgb(255,230,136)"
+         surfaceScale="2"
+         result="result4"
+         specularConstant="2"
+         specularExponent="65"
+         in="result2"
+         id="feSpecularLighting4418">
+        <feDistantLight
+           elevation="62"
+           azimuth="225"
+           id="feDistantLight4420" />
+      </feSpecularLighting>
+      <feComposite
+         k1="2.5"
+         k3="1"
+         k2="-0.5"
+         in2="result2"
+         in="result4"
+         operator="arithmetic"
+         result="result91"
+         id="feComposite4422" />
+      <feBlend
+         result="fbSourceGraphic"
+         mode="multiply"
+         in2="result91"
+         id="feBlend4424" />
+      <feColorMatrix
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -2 -0.5 0 5 -2"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha"
+         id="feColorMatrix4426" />
+      <feGaussianBlur
+         stdDeviation="8"
+         in="fbSourceGraphicAlpha"
+         result="result0"
+         id="feGaussianBlur4428" />
+      <feOffset
+         dx="2"
+         dy="2"
+         in="result0"
+         result="result3"
+         id="feOffset4430" />
+      <feSpecularLighting
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="4"
+         specularConstant="0.8"
+         specularExponent="15"
+         id="feSpecularLighting4432">
+        <fePointLight
+           x="-5000"
+           y="-10000"
+           z="20000"
+           id="fePointLight4434" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphicAlpha"
+         in="result1"
+         result="result2"
+         operator="in"
+         id="feComposite4436" />
+      <feComposite
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="2"
+         in2="result2"
+         id="feComposite4438" />
+      <feBlend
+         mode="darken"
+         in2="result4"
+         id="feBlend4440" />
+    </filter>
+    <filter
+       y="-0.15"
+       height="1.3"
+       x="-0.15"
+       width="1.3"
+       inkscape:menu-tooltip="Aquarelle paper effect which can be used for pictures as for objects"
+       inkscape:menu="Textures"
+       inkscape:label="Rough Paper"
+       style="color-interpolation-filters:sRGB;"
+       id="filter4474">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.04"
+         numOctaves="5"
+         seed="0"
+         result="result4"
+         id="feTurbulence4476" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="result4"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         scale="10"
+         result="result3"
+         id="feDisplacementMap4478" />
+      <feDiffuseLighting
+         lighting-color="rgb(233,230,215)"
+         diffuseConstant="1"
+         surfaceScale="2"
+         result="result1"
+         in="result4"
+         id="feDiffuseLighting4480">
+        <feDistantLight
+           azimuth="235"
+           elevation="40"
+           id="feDistantLight4482" />
+      </feDiffuseLighting>
+      <feComposite
+         operator="in"
+         in="result3"
+         in2="result1"
+         result="result2"
+         id="feComposite4484" />
+      <feComposite
+         in2="result1"
+         result="result5"
+         operator="arithmetic"
+         k1="1.7"
+         id="feComposite4486" />
+      <feBlend
+         in="result5"
+         in2="result3"
+         mode="normal"
+         id="feBlend4488" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -745,9 +1014,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.8"
-     inkscape:cx="-139.72893"
-     inkscape:cy="727.17256"
+     inkscape:zoom="0.7"
+     inkscape:cx="-182.53072"
+     inkscape:cy="556.8895"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -989,7 +1258,10 @@
          height="45.456863"
          x="227.04622"
          y="649.63379"
-         ry="11.0829" />
+         ry="11.0829"
+         inkscape:export-filename="/home/nerviozzo/git/nzweb/images/bordes-cajas/sitiosweb.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
       <rect
          transform="matrix(2.8096082,0,0,2.6813206,-457.04271,-1066.1706)"
          style="opacity:1;fill:#d9ffc2;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4325-85)"
@@ -1092,43 +1364,40 @@
          sodipodi:type="star" />
     </g>
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4408)"
        id="rect4242"
        width="156.57364"
        height="71.720833"
        x="-147.38795"
        y="263.77969"
-       ry="13.132" />
+       ry="13.132"
+       inkscape:export-filename="/home/nerviozzo/git/nzweb/images/datoscontacto.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0230248;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.0230248;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4374)"
        d="m -134.003,263.53864 c 43.325211,0.0113 86.650989,-0.0227 129.9758386,0.017 7.44983,0.16117 13.35829,7.49101 12.42672,14.79035 -0.15946,7.56739 0.39178,11.93865 0.39178,11.93865 -42.6888296,-0.0113 -113.4099586,0.0227 -156.0984186,-0.017 0,0 -0.73138,-6.98593 0.20018,-14.28527 0.19514,-6.78432 6.31774,-12.59808 13.1039,-12.44373 z"
        id="rect4244"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/nerviozzo/git/nzweb/images/datoscontacto.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        sodipodi:type="spiral"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="path4247"
-       sodipodi:cx="-140.31689"
-       sodipodi:cy="304.43832"
+       sodipodi:cx="-137.10262"
+       sodipodi:cy="300.86688"
        sodipodi:expansion="1"
        sodipodi:revolution="1.9533671"
        sodipodi:radius="6.1586299"
        sodipodi:argument="-16.914782"
        sodipodi:t0="0"
-       d="m -140.31689,304.43832 c -0.16883,0.44317 -0.68067,-0.009 -0.73657,-0.28059 -0.15149,-0.73621 0.65788,-1.22829 1.29776,-1.19255 1.14459,0.064 1.81277,1.26287 1.64852,2.31494 -0.24105,1.54395 -1.87417,2.40936 -3.3321,2.10448 -1.9432,-0.40635 -3.01082,-2.48746 -2.56046,-4.34926 0.56673,-2.34289 3.10165,-3.61472 5.36643,-3.01644 2.74294,0.72461 4.22002,3.71635 3.47241,6.38361 -0.6932,2.47308 -3.05172,4.15271 -5.59274,4.17894" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.23618698px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-115.46014"
-       y="339.05441"
-       id="text4249"
-       sodipodi:linespacing="125%"
-       transform="scale(1.101482,0.90786777)"><tspan
-         sodipodi:role="line"
-         id="tspan4251"
-         x="-115.46014"
-         y="339.05441">correo@gmail.com</tspan></text>
+       d="m -137.10262,300.86688 c -0.16882,0.44317 -0.68067,-0.009 -0.73657,-0.28059 -0.15148,-0.73621 0.65789,-1.2283 1.29777,-1.19255 1.14459,0.064 1.81277,1.26286 1.64851,2.31493 -0.24104,1.54396 -1.87416,2.40937 -3.33209,2.10449 -1.9432,-0.40635 -3.01082,-2.48746 -2.56047,-4.34926 0.56674,-2.34289 3.10166,-3.61472 5.36644,-3.01644 2.74294,0.72461 4.22002,3.71635 3.4724,6.3836 -0.69319,2.47309 -3.05171,4.15272 -5.59273,4.17895"
+       inkscape:export-filename="/home/nerviozzo/git/nzweb/images/datoscontacto.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g4357"
        inkscape:export-filename="/home/nerviozzo/git/nzweb/images/cartelweb.png"
@@ -1292,17 +1561,35 @@
            x="905.71429"
            y="292.36221"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS'" /></flowRegion><flowPara
-         id="flowPara4809">#@SIGUEME@#</flowPara></flowRoot>    <circle
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path4365"
-       cx="-138.7697"
-       cy="319.11771"
-       r="3.4092648" />
-    <path
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -131.31983,326.44132 c -0.1395,0.60441 -0.45848,0.61211 -4.16648,-2.64302 -0.91257,-0.80111 1.77532,3.52635 -3.32382,3.53217 -4.47791,0.005 -3.13476,-3.37952 -3.13476,-3.37952 -3.34054,2.43007 -2.72834,2.84978 -3.34054,2.43007 -0.90199,-0.66316 0.58867,-3.34195 1.43128,-3.62216 0.10087,-2.43499 10.08022,-2.64707 10.15622,-0.12948 0.57631,0.28038 2.72051,2.85972 2.3781,3.81194 z"
-       id="path4367"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssscccc" />
+         id="flowPara4809">#@SIGUEME@#</flowPara></flowRoot>    <g
+       id="g4370"
+       transform="translate(3.2142857,-0.71428572)"
+       inkscape:export-filename="/home/nerviozzo/git/nzweb/images/datoscontacto.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="3.4092648"
+         cy="319.11771"
+         cx="-138.7697"
+         id="path4365"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cssscccc"
+         inkscape:connector-curvature="0"
+         id="path4367"
+         d="m -131.31983,326.44132 c -0.1395,0.60441 -0.45848,0.61211 -4.16648,-2.64302 -0.91257,-0.80111 1.77532,3.52635 -3.32382,3.53217 -4.47791,0.005 -3.13476,-3.37952 -3.13476,-3.37952 -3.34054,2.43007 -2.72834,2.84978 -3.34054,2.43007 -0.90199,-0.66316 0.58867,-3.34195 1.43128,-3.62216 0.10087,-2.43499 10.08022,-2.64707 10.15622,-0.12948 0.57631,0.28038 2.72051,2.85972 2.3781,3.81194 z"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <rect
+       style="opacity:1;fill:#89533f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4474)"
+       id="rect4442"
+       width="190"
+       height="190"
+       x="-790"
+       y="236.64792"
+       rx="0"
+       inkscape:export-filename="/home/nerviozzo/git/nzweb/images/papel-marron.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
