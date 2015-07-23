@@ -149,28 +149,13 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	position: absolute;
 	width: 60px;
 	height: 350px;
-	top: 25px;
-	right: -30px;
+	top: 33px;
+	right: -40px;
 	word-wrap: break-word;
 	text-align: center;
-	background-color: orange;
-	border-radius: 28px;
-	-moz-border-radius: 28px;
-	-webkit-border-radius: 28px;
-	-o-border-radius: 28px;
-	-ms-border-radius: 28px;
-	box-shadow: 5px 0px 15px black;
-	-moz-box-shadow: 5px 0px 15px black;
-	-webkit-box-shadow: 5px 0px 15px black;
-	-o-box-shadow: 5px 0px 15px black;
-	-ms-box-shadow: 5px 0px 15px black;
-	/*
-	transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-webkit-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	*/
+	background-color: transparent;
+	background-image: url(../images/sigueme.png);
+	background-repeat: no-repeat;
 }
 .redessociales{
 	position: relative;
