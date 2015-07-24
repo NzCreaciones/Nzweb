@@ -29,9 +29,9 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	max-width: 900px;
 	height: 130px;
 	margin: auto;
-	padding-top: 15px;
+	padding: 15px;
 	border: 10px groove grey;
-	background-color: dodgerblue;
+	background-color: red;
 	background-image: url("../images/titulo/fondotitulo.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -209,7 +209,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 #cajacirculo{
 	position: relative;
 	width: 400px;
-	height: 450px;
+	height: 380px;
 	margin: auto;
 	padding-top: 8%;
 	border-radius: 50px;
@@ -222,9 +222,9 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	height: 70%;
 	margin: auto;
 	background-repeat: no-repeat;
-	background-size: 110%;
+	background-size: 100%;
 	background-position: right;
-	background-image: url(../images/fondocirculo.jpg);
+	background-image: url(../images/fondocirculo.png);
 	border-radius: 280px;
 	-moz-border-radius: 280px;
 	-webkit-border-radius: 280px;
@@ -240,26 +240,16 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 /*Cuadrado con el menu para ir a las páginas WEB*/
 #nzweb{
 	position: absolute;
-	width: 400px;
-	height: 60px;
-	bottom: 30px;
+	width: 468px;
+	height: 154px;
+	bottom: -70px;
 	left: -20px;
 	padding:10px;
 	vertical-align: middle;
 	text-align: center;
 	font-size: 45px;
-	background-color: cornflowerblue;
-	border: 6px groove white;
-	border-radius: 28px;
-	-moz-border-radius: 28px;
-	-webkit-border-radius: 28px;
-	-o-border-radius: 28px;
-	-ms-border-radius: 28px;
-	box-shadow: 10px 10px 10px black;
-	-moz-box-shadow: 10px 10px 10px black;
-	-webkit-box-shadow: 10px 10px 10px black;
-	-o-box-shadow: 10px 10px 10px black;
-	-ms-box-shadow: 10px 10px 10px black;
+	background-image: url(../images/nzcreaciones.png);
+	background-repeat: no-repeat;
 }
 .sx{
 	position: absolute;
