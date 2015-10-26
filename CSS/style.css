@@ -1,13 +1,78 @@
 @CHARSET "UTF-8";
 
+/*--------------------------------FUENTES internas--------------------*/
+@font-face {font-family:titulo;
+src: url(../TTF/titulo.ttf) format("opentype");}
+@font-face {font-family:titulo_dos;
+src: url(../TTF/titulo_dos.ttf) format("opentype");}
+@font-face {font-family:titulo_tres;
+src: url(../TTF/titulo_tres.ttf) format("opentype");}
+@font-face {font-family:titulo_cuatro;
+src: url(../TTF/titulo_cuatro.ttf) format("opentype");}
+@font-face {font-family:titulo_cinco;
+src: url(../TTF/titulo_cinco.ttf) format("opentype");}
+@font-face {font-family:texto;
+src: url(../TTF/texto.otf) format("opentype");}
+@font-face {font-family:texto_dos;
+src: url(../TTF/texto_dos.ttf) format("opentype");}
+@font-face {font-family:texto_tres;
+src: url(../TTF/texto_tres.ttf) format("opentype");}
+@font-face {font-family:texto_cuatro;
+src: url(../TTF/texto_cuatro.ttf) format("opentype");}
+@font-face {font-family:texto_cinco;
+src: url(../TTF/texto_cinco.ttf) format("opentype");}
+
+
 /* Estilos Comunes en toda la página*/
 *{
-  margin:0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body{
 
+}
+
+A {
+	font-size: 18px;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	color: #8AF466;
+}
+
+P {
+	font-family: texto_dos;
+}
+
+LI {
+	margin-left: 55px;
+	list-style-type: square;
+	font-family: texto_tres;
+	font-size: 32px;
+	text-shadow: 5px 5px 5px #8AF466;
+	-moz-text-shadow: 5px 5px 5px #8AF466;
+	-webkit-text-shadow: 5px 5px 5px #8AF466;
+	-o-text-shadow: 5px 5px 5px #8AF466;
+	-ms-text-shadow: 5px 5px 5px #8AF466;
+}
+
+H1 {
+	font-family: titulo_tres;
+}
+
+H3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color: #FF324A;
+	font-size: 42px;
+	font-family: titulo_cinco;
+	justify-content: center;
+	text-align: center;
+	text-shadow: 5px 5px 5px black;
+	-moz-text-shadow: 5px 5px 5px black;
+	-webkit-text-shadow: 5px 5px 5px black;
+	-o-text-shadow: 5px 5px 5px black;
+	-ms-text-shadow: 5px 5px 5px black;
 }
 
 H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
@@ -16,31 +81,76 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 }
 
 /*Caja principal que abarca toda la página*/
-#cajaprincipal{
+#cajaprincipal {
 	width: 100%;
 	background-color: black;
 }
 
 /*----------------------Título------------------------------------*/
 /*Título de la página*/
-#cajatitulo{
+#cajatitulo {
 	position: relative;
 	min-width: 400px;
 	max-width: 900px;
-	height: 130px;
+	height: 100px;
 	margin: auto;
 	padding: 15px;
-	border: 10px groove grey;
-	background-color: red;
-	background-image: url("../images/titulo/fondotitulo.png");
-	background-position: center;
+	background-image: url(../images/fondoblanco.jpg);
+	background-size: 99.99% 99.9%;
 	background-repeat: no-repeat;
-	background-size: contain;
+	border: 50px solid transparent;
+	border-spacing: 20px;
+	border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-moz-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-webkit-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-o-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-ms-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
+}
+#proyecto {
+	position: absolute;
+	width: 50%;
+	bottom: 0;
+	left: 0;
+}
+#logo {
+	position: absolute;
+	width: 100%;
+	top: -25px;
+	left: 0;
+}
+
+#centrarlogo {
+	position: relative;
+	margin: auto;
+	width: 160px;
+	height: 240px;
+}
+#logoimg {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+#logoimg:hover {
+	image-orientation: 180;
+}
+#nz {
+	position: absolute;
+	width: 50%;
+	bottom: 0;
+	right: 0;
+	align-content: center;
+	text-align: right;
 }
 /*Caja para portalweb*/
 #portalweb {
 	position: relative;
-	width: 300px;
+	width: 180px;
 	height: 150px;
 	margin: auto;
 	float: left;
@@ -52,8 +162,8 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 /*Caja para nzcreaciones*/
 #nzcreaciones {
 	position: relative;
-	width: 300px;
-	height: 150px;
+	width: 180px;
+	min-height: 60px;
 	margin: auto;
 	float: right;
 	display: block;
@@ -68,7 +178,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	width: 280px;
 	height: 600px;
 	top: 160px;
-	right: 0px;
+	right: -280px;
 	z-index: 21;
 	background-image: url(../images/papel-marron.png);
 	background-repeat: round;
@@ -77,7 +187,13 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-border-radius: 150px 0px 0px 40px;
 	-o-border-radius: 150px 0px 0px 40px;
 	-ms-border-radius: 150px 0px 0px 40px;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
 }
+
 #menu{
 	position: absolute;
 	width: 148px;
@@ -90,16 +206,37 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 }
 #datoscontacto{
 	position: absolute;
-	width: 190px;
+	width: 220px;
 	height: 100px;
 	top: 50px;
-	right: 5px;
+	right: -7px;
 	padding: 20px;
 	color: blue;
 	background-image: url(../images/datoscontacto.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+#titulocontacto {
+	margin-top: -18px;
+	text-align: center;
+	color: #7AD85B;
+	font-family: titulo_dos;
+	font-size: 32px
+}
+#correocontacto {
+	margin-left: 27px;
+	font-family: texto_dos;
+	font-size: 18px;
+	color: black;
+}
+#nombrecontacto {
+	margin-left: 32px;
+	margin-top: 1px;
+	font-family: texto_dos;
+	font-size: 20px;
+	color: black;
+}
+
 #cartelsitiosweb{
 	position: absolute;
 	width: 200px;
@@ -116,6 +253,15 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	height: 30px;
 	top: 250px;
 	left: 45px;
+	font-family: titulo;
+	font-style: oblique;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	background-image: url(../images/fondoblanco.jpg);
+	background-size: 99.9% 99%;
+	background-repeat: no-repeat;
+	border-spacing: 20px;
 	border: 20px solid transparent;
 	border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
 	-moz-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
@@ -135,7 +281,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	width: 150px;
 	height: 400px;
 	top: 160px;
-	left: 0px;
+	left: -140px;
 	background-image: url(../images/mosaico.png);
 	z-index: 21;
 	border-radius: 0px 10px 10px 0px;
@@ -143,6 +289,19 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-border-radius: 0px 10px 10px 0px;
 	-o-border-radius: 0px 10px 10px 0px;
 	-ms-border-radius: 0px 10px 10px 0px;
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+}
+#cajaizquierda:hover {
+	left: 0px;
+	transition-duration: 2s;
+	-moz-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	-o-transition-duration: 2s;
+	-ms-transition-duration: 2s;
 }
 #sigueme{
 	position: absolute;
@@ -156,6 +315,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	background-image: url(../images/sigueme.png);
 	background-repeat: no-repeat;
 }
+
 .redessociales{
 	position: relative;
 	width: 80px;
@@ -173,8 +333,8 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-o-transform: rotate(-20deg);
 	-ms-transform: rotate(-20deg);
 }
-#redesgmail {
-	background-image: url(../images/iconos/gmail.png);
+#redesgoogleplus {
+	background-image: url(../images/iconos/googleplus.png);
 }
 #redesfacebook {
 	background-image: url(../images/iconos/facebook.png);
@@ -193,17 +353,16 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	min-width: 400px;
 	max-width: 900px;
 	margin: auto;
-	background-color: white;
 	padding-top: 50px;
+
 }
 
 /*------------------------Globo con las 5 WEB principales------------*/
  /*Caja para LINKS*/
 #cajalinks{
-	position: relative:
-	width: 100%;
 	height: 500px;
 	margin: auto;
+
 }
 /*Caja general que contiene el círculo y enlaces*/
 #cajacirculo{
@@ -260,13 +419,15 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	text-align: center;
 	color: aliceblue;
 	font-size: 10px;
-	background-color: orangered;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .sx:hover{
 	width: 140px;
 	height: 140px;
 	margin-left: -30px;
 	margin-top: -30px;
+	font-size: 18px;
 	cursor: pointer;
 	box-shadow: 10px 10px 10px black;
 	-moz-box-shadow: 10px 10px 10px black;
@@ -283,7 +444,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-transform:rotate(-65deg) scale(1);
 	-o-transform:rotate(-65deg) scale(1);
 	-ms-transform:rotate(-65deg) scale(1);
-	background-image: url(../images/file.png);
+	background-image: url(../images/miniaturaswebs/laguialinux.png);
 }
 #sb{
 	top:77px;
@@ -293,12 +454,12 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-transform:rotate(-40deg) scale(1);
 	-o-transform:rotate(-40deg) scale(1);
 	-ms-transform:rotate(-40deg) scale(1);
-	background-image: url(../images/download.png);
+	background-image: url(../images/miniaturaswebs/desdechipiona.png);
 }
 #sc{
 	top:35px;
 	left:160px;
-	background-image: url(../images/audio.png);
+	background-image: url(../images/miniaturaswebs/exateunasrisas.png);
 }
 #sd{
 	top:77px;
@@ -308,7 +469,7 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-transform:rotate(40deg) scale(1);
 	-o-transform:rotate(40deg) scale(1);
 	-ms-transform:rotate(40deg) scale(1);
-	background-image: url(../images/multimedia.png);
+	background-image: url(../images/miniaturaswebs/otraweb.png);
 }
 #se{
 	top:160px;
@@ -318,11 +479,11 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	-webkit-transform:rotate(65deg) scale(1);
 	-o-transform:rotate(65deg) scale(1);
 	-ms-transform:rotate(65deg) scale(1);
-	background-image: url(../images/certificado.png);
+	background-image: url(../images/miniaturaswebs/otraweb.png);
 }
 
 /*---------------------------------DESCRIPCIÓN DEL SITIO----------*/
-#descripcionproyectonz{
+#descripcionproyectonz {
 	min-width: 400px;
 	max-width: 900px;
 	padding: 10px;
@@ -331,25 +492,50 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 	background-color: black;
 }
 
+#descripcionproyectonz P {
+	font-family: texto_cinco;
+	text-align: justify;
+}
+
 /*----------------------------------SITIOS WEB---------------------*/
 /*Caja que engloba todos los sitios*/
 #cajasitiosweb{
-	width: 100%;
+	min-width: 400px;
+	max-width: 900px;
 	margin: 0;
 	padding: 0;
 	align-content: center;
 	vertical-align: middle;
+	background-image: url(../images/fondoblanco.jpg);
+	background-size: 100% 99.9%;
+	background-repeat: no-repeat;
+	border: 50px solid transparent;
+	border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-moz-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-webkit-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-o-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	-ms-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
+	border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
 }
 
 /*Común para todos*/
 .sitiosweb{
-	min-width: 400px;
+	min-width: 300px;
 	max-width: 800px;
 	margin: auto;
 	padding: 0px;
 	margin-top: 8px;
 	margin-bottom: 15px;
+	text-align: justify;
+	background-image: url(../images/fondoblanco.jpg);
+	background-size: 100% 99.9%;
+	background-repeat: no-repeat;
 	border: 50px solid transparent;
+	border-spacing: 20px;
 	border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
 	-moz-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
 	-webkit-border-image: url(../images/bordes-cajas/sitiosweb.png) 70 70 round;
@@ -369,9 +555,24 @@ H6{/*Designado para títulos especiales como el de sigueme del lateral IZQ*/
 /*Caja para el pie de página*/
 #piedepagina{
 	width: 100%;
-	height: 30px;
+	height: 130px;
+	margin-top: 35px;
+	padding-top: 15px;
+	font-family: texto_cinco;
+	font-size: 22px;
+	text-align: center;
 	align-content: center;
 	vertical-align: middle;
+	background-color: chartreuse;
+}
+
+#piedepagina P {
+	padding: 7px;
+	border-bottom: 5px solid black;
+	font-family: texto_cinco;
+	font-size: 32px;
 	text-align: center;
+	align-content: center;
+	vertical-align: middle;
 	background-color: chartreuse;
 }

@@ -3,52 +3,61 @@
 	<HEAD>
 		<TITLE>Nz Creaciones</TITLE>
 		<META CHARSET="utf-8"/>
-		<LINK REL="stylesheet" HREF="./CSS/style.css">
-		<SCRIPT TYPE="text/javascript" SRC="./JS/script.js"></SCRIPT>
+		<LINK REL="stylesheet" HREF="./CSS/style.css"/>
+		<SCRIPT TYPE="text/javascript" SRC="./JS/scripts.js"></SCRIPT>
 	</HEAD>
 
 	<BODY onkeydown="return false">
 		<DIV id="cajaprincipal"> <!--Caja que abarca toda la página-->
-			<DIV id="cajatitulo"> <!--Caja para el título de la web-->
+			<HEADER id="cajatitulo"><!--Caja para el título de la web-->
 				<DIV id="portalweb"></DIV>
 				<DIV id="nzcreaciones"></DIV>
-			</DIV>
+				<DIV id="proyecto"></DIV>
+				<DIV id="logo">
+					<DIV id="centrarlogo" onMouseOver="cambiarlogo()" onMouseOut="cambiarlogoOFF()">
+						<A href="http://www.nzweb.org" style="cursor:none">
+							<IMG src="images/logo.png" alt="Logo Nz Creaciones" id="logoimg"/>
+						</A>
+					</DIV>
+				</DIV>
+				<DIV id="nz"></DIV>
+			</HEADER>
 
 			<DIV id="cajaizquierda">
 				<DIV id="sigueme"><!--Caja visible para desplegar a todo el conjunto--></DIV>
-
-				<DIV id="redesgmail" class="redessociales"></DIV>
-				<DIV id="redesfacebook" class="redessociales"></DIV>
-				<DIV id="redestwitter" class="redessociales"></DIV>
-				<DIV id="redesyoutube" class="redessociales"></DIV>
-
+				<A href="https://plus.google.com/+NzwebOrgNzCreaciones" target="_blank"><DIV id="redesgoogleplus" class="redessociales"></DIV></A>
+				<A href="https://www.facebook.com/NzCreacionesNzweb" target="_blank"><DIV id="redesfacebook" class="redessociales"></DIV></A>
+				<A href="#" target="_blank"><DIV id="redestwitter" class="redessociales"></DIV></A>
+				<A href="https://www.youtube.com/user/nzcreaciones" target="_blank"><DIV id="redesyoutube" class="redessociales"></DIV></A>
 			</DIV>
 
-			<DIV id="cajaderecha">
+			<DIV id="cajaderecha" onClick="menuderecha()">
 				<DIV id="menu"></DIV>
 
 				<DIV id="datoscontacto">
 					<P id="titulocontacto">Contacto</P>
-					<P id="correocontacto">correo@gmail.com</P>
-					<P id="nombrecontacto">Nombre</P>
+					<P id="correocontacto"><A href="mailto:nzcreaciones@gmail.com" style="color:black"> nzcreaciones@gmail.com</A></P>
+					<P id="nombrecontacto"><A href="https://plus.google.com/u/0/+RaúlCaroPastorino" target="_blank" style="color:black">Raúl Caro Pastorino</A></P>
 				</DIV>
 
 				<DIV id="cartelsitiosweb"></DIV>
 
-				<DIV class="anclasitiosweb"></DIV>
-				<DIV class="anclasitiosweb"></DIV>
-				<DIV class="anclasitiosweb"></DIV>
-				<DIV class="anclasitiosweb"></DIV>
-				<DIV class="anclasitiosweb"></DIV>
+				<A href="http://www.noticias.nzweb.org" target="_blank"><DIV class="anclasitiosweb">Blog</DIV></A>
 			</DIV>
 
 			<DIV id="cajageneral"><!--Caja general para todo el contenido centrado-->
 				<DIV id="cajalinks"><!--Caja con todo el contenido de los enlaces-->
 					<DIV id="cajacirculo"><!--Caja general que contiene el círculo y enlaces-->
 						<DIV id="circulo"><!--Círculo principal--></DIV>
-						<DIV id="sa" class="sx" onclick="fondocirculo('file.png')">La Guía Linux</DIV>
-						<DIV id="sb" class="sx">Desde Chipiona</DIV>
-						<DIV id="sc" class="sx">Exate unas Risas</DIV>
+						<A href="http://www.laguialinux.es" target="_blank">
+							<DIV id="sa" class="sx">La Guía Linux</DIV>
+						</A>
+						<A href="http://www.desdechipiona.nzweb.org" target="_blank">
+							<DIV id="sb" class="sx">Desde Chipiona</DIV>
+						</A>
+						<A href="http://www.exateunasrisas.nzweb.org" target="_blank">
+							<DIV id="sc" class="sx">Exate unas Risas</DIV>
+						</A>
 						<DIV id="sd" class="sx">otraweb</DIV>
 						<DIV id="se" class="sx">otraweb</DIV>
 						<DIV id="nzweb"><!--Cuadrado con el menu para ir a las páginas WEB--></DIV>
@@ -69,7 +78,7 @@
 							Guías y tutoriales de Linux, La Guía Linux
 						</P>
 						<P>
-							<A href="www.laguialinux.es"><H3>www.laguialinux.es</H3></A>
+							<A href="http://www.laguialinux.es" target="_blank"><H3>www.laguialinux.es</H3></A>
 						</P>
 					</DIV>
 
@@ -79,7 +88,7 @@
 							Noticias de informática y tecnología en general
 						</P>
 						<P>
-							<A href="www.noticias.laguialinux.es"><H3>www.noticias.laguialinux.es</H3></A>
+							<A href="http://www.noticias.laguialinux.es" target="_blank"><H3>www.noticias.laguialinux.es</H3></A>
 						</P>
 					</DIV>
 
@@ -94,7 +103,7 @@
 							</UL>
 						</P>
 						<P>
-							<A href="www.blog.laguialinux.es"><H3>www.blog.laguialinux.es</H3></A>
+							<A href="http://www.blog.laguialinux.es" target="_blank"><H3>www.blog.laguialinux.es</H3></A>
 						</P>
 					</DIV>
 
@@ -104,7 +113,7 @@
 							Es el sitio WEB en el que te encuentras que pretende reunir todos los proyectos que llevo a cabo o en los que colaboro para que estén de forma centralizada y localizados
 						</P>
 						<P>
-							<A href="www.nzweb.org"><H3>www.nzweb.org</H3></A>
+							<A href="http://www.nzweb.org"  target="_blank"><H3>www.nzweb.org</H3></A>
 						</P>
 					</DIV>
 
@@ -114,7 +123,7 @@
 							Web de fotografías o fotoblog sobre Chipiona donde muestro las mejores fotografías que he logrado sacar. Este proyecto está abierto a colaboración con la idea de terminar siendo un proyecto de comunidad elaborado por todos ya que es un buen medio de fomentar la belleza de este pueblo al transmitir fotografías seleccionadas a los posibles turistas que nos busquen mediante internet.
 						</P>
 						<P>
-							<A href="www.desdechipiona.nzweb.org"><H3>www.desdechipiona.nzweb.org</H3></A>
+							<A href="http://www.desdechipiona.nzweb.org" target="_blank"><H3>www.desdechipiona.nzweb.org</H3></A>
 						</P>
 					</DIV>
 
@@ -124,7 +133,7 @@
 							Blog con todas las fotografías que saco sobre Chipiona.
 						</P>
 						<P>
-							<A href="www.blog.desdechipiona.nzweb.org"><H3>www.blog.desdechipiona.nzweb.org</H3></A>
+							<A href="http://www.blog.desdechipiona.nzweb.org" target="_blank"><H3>www.blog.desdechipiona.nzweb.org</H3></A>
 						</P>
 					</DIV>
 
@@ -134,7 +143,7 @@
 							Noticias sobre el proyecto Nz
 						</P>
 						<P>
-							<A href="www.noticias.nzweb.org"><H3>www.noticias.nzweb.org</H3></A>
+							<A href="http://www.noticias.nzweb.org" target="_blank"><H3>www.noticias.nzweb.org</H3></A>
 						</P>
 					</DIV>
 
@@ -144,7 +153,7 @@
 							Asociación de informáticos y nuevas tecnologías en Chipiona
 						</P>
 						<P>
-							<A href="www.winkle.nzweb.org"><H3>www.winkle.nzweb.org</H3></A>
+							<A href="http://www.winkle.nzweb.org" target="_blank"><H3>www.winkle.nzweb.org</H3></A>
 						</P>
 					</DIV>
 
@@ -163,7 +172,7 @@
 							</UL>
 						</P>
 						<P>
-							<A href="#"><H3>#</H3></A>
+							<A href="#" target="_blank"><H3>ENLACE #</H3></A>
 						</P>
 					</DIV>
 				</DIV>
@@ -171,11 +180,17 @@
 
 
 
-			<DIV id="piedepagina"><!--Caja con información del autor al pie de la página-->
-				Pie de página - Licencia GPL v3.0 - 2015 - Raúl Caro Pastorino
-			</DIV>
+			<FOOTER id="piedepagina"><!--Caja con información del autor al pie de la página-->
+				<P>
+					NzCreaciones es un proyecto fundado por Raúl Caro Pastorino
+				</P>
+				<P>
+					Año 2015
+				</P>
+				<P>
+					Proyecto bajo Licencia GPL v3.0 alojado en <A href="https://github.com/nerviozzo/nzweb" style="color:red; font-size:38px">GitHub</A>
+				</P>
+			</FOOTER>
 		</DIV>
 	</BODY>
 </HTML>
-
-
